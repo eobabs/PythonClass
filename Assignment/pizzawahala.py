@@ -3,9 +3,23 @@ PSEUDOCODE
 
 
 """
+iya_afeez_menu = """
+WELCOME TO IYA AFEEZ PIZZA JOINT
 
+Find below our menu:
+____________________________________________________
+Pizza Type  ||  Number of Slices  ||  Price per box
+____________________________________________________
 
-pizza_type = input("Enter your preferred pizza type: ").strip().lower()
+Sapa Size   ||  4	          ||  2,000
+Small Money ||  6		  ||  2,400
+Big Boys    ||  8		  ||  3,000
+Odogwu	    ||  12		  ||  4,200
+"""
+
+print (iya_afeez_menu)
+
+pizza_type = input("Enter your preferred pizza type: ")
 number_of_guests = int(input("Enter the number of expected guests: "))
 
 if pizza_type == "Sapa Size" and number_of_guests > 0 :

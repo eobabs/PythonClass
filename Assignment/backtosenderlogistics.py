@@ -1,4 +1,5 @@
 """
+
 PSEUDOCODE
 
 1. Define statutory amount of 5000 and store in a variable
@@ -10,12 +11,11 @@ PSEUDOCODE
 7. If the user enters a number less than, multiply by 200 and add statutory amount
 8. Store the value gotten in either of steps 4, 5, 6 or 7. Store in a variable.
 9. Print result
+
 """
 
 
 def main():
-
-	
 
 	wages_of_riders()
 
