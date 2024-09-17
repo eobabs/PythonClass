@@ -15,7 +15,7 @@ def palindromes_addition (number) :
 				difference = tens_digit - unit_digit
 				return difference
 			else :
-				print("Nothing is done")
+				return "Nothing is done"
 		if number >= 100 and number <= 999:
 			unit_digit = number % 10
 			tens_digit = (number // 10) % 10
@@ -23,17 +23,15 @@ def palindromes_addition (number) :
 			if tens_digit % 2 == 0 and unit_digit % 2 == 0:
 				if hundreds_digit % 2 == 0:
 					sum = unit_digit + tens_digit + hundreds_digit
-					
 					return sum
 				else :
-					print("Nothing is done")
+					return "Nothing is done"
 			elif tens_digit % 2 == 1 and unit_digit % 2 == 1:
 				if hundreds_digit % 2 == 1:
 					difference = hundreds_digit - tens_digit - unit_digit
-					
 					return difference
 				else :
-					print("Nothing is done")
+					return "Nothing is done"
 			else :
 				return "Nothing is done"
 	else :

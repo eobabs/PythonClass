@@ -11,7 +11,13 @@ print(add_number(3,4,7))
 
 
 def reverse_string(word):
-	pass
+	
+	reverse = ''
+
+	for character in range (len (word)+1,-1,-1):
+	
+		reverse += 
+
 
 
 word = "joe"

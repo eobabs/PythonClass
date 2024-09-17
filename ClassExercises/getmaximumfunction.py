@@ -9,7 +9,7 @@ def get_maximum(first_number, second_number, third_number):
 	largest_number = first_number
 
 
-	if first_number == "" and second_number == "" and c == "":
+	if first_number == "" and second_number == "" and third_number == "":
 		print ("invalid")
 
 		
@@ -23,7 +23,7 @@ def get_maximum(first_number, second_number, third_number):
 
 print("The maximum number is ", get_maximum(first_user_input,second_user_input,third_user_input))
 
-
+  
 def get_minimum(first_number, second_number, third_number):
 
 	lowest_number = first_number
@@ -32,8 +32,6 @@ def get_minimum(first_number, second_number, third_number):
 	if first_number == "" and second_number == "" and c == "":
 		print ("invalid")
 
-	if first_number < lowest_number:
-		lowest_number = first_number
 		
 	if second_number < lowest_number :
 		lowest_number = second_number

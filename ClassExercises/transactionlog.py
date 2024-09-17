@@ -4,11 +4,12 @@ PSEUDOCODE
 1. Keep requesting for user's deposit and store as a variable.
 2. Keep requesting for user's withdrawals and store as a variable.
 3. Get the sum of all deposits
-4. Get the sum of all withdrawls
+4. Get the sum of all withdrawals
 5. Find the difference between the sum and the withdrawls.
 6. Store the difference as a variable.
 
 '''
+
 print("")
 number_of_deposits = int(input("Enter number of deposits: "))
 
