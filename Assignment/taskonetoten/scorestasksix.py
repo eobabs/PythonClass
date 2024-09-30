@@ -8,4 +8,4 @@ for count in range (1,11):
 		counter += 1
 		sum += score
 
-print(f"The sum of the scores that are even number is {sum/counter}")
+print(f"The average of the scores that are even number is {sum/counter}")

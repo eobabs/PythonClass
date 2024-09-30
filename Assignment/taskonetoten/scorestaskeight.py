@@ -8,4 +8,4 @@ while (counter != 10):
 		counter += 1
 		sum += score
 
-print(f"The sum of the scores that are even number is {sum}")
+print(f"The sum of the 10 valid scores  is {sum}")
