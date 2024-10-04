@@ -18,8 +18,9 @@ if integer_input >= 0 and integer_input <= 1000:
 	sum_of_digits = 0
 	while (number != 0) :
 		extracted_digit = number % 10
-		sum_of_digits = sum_of_digits + extracted_digit
-		number //= 10
+		if extracted_digit % 2 == 0:
+			sum_of_digits = sum_of_digits + extracted_digit
+			number //= 10
 	print(f"The sum of all the digits of {integer_input} is {sum_of_digits} ")
 
 else :
