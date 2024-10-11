@@ -6,9 +6,11 @@ def vowel_catcher(character):
 
 	return False
 
-
-
 print(vowel_catcher("k"))
+print(vowel_catcher("1"))
+print(vowel_catcher("j"))
+print(vowel_catcher("p"))
+print(vowel_catcher("o"))
 	
 
 	
