@@ -6,7 +6,7 @@ for count in range (7):
 		
 		if number % 2 == 1:
 			print (number, end = ' ')
-	print ("", end = " ")
+	
 
 
 

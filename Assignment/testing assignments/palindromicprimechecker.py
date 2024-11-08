@@ -1,6 +1,6 @@
 def is_palindrome(number):
-	str_number = str(number)
-	return str_number == str_number[::-1]
+	number_in_string = str(number)
+	return str_number == number_in_string[::-1]
 
 def is_prime(number):
     if number <= 1:
