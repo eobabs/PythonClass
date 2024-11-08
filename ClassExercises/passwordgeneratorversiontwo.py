@@ -7,7 +7,7 @@ def generate_password(length=random.randrange(16, 50)):
     if length < 16:
         raise ValueError("Password length must be at least 16 characters")
 
-    # Define character sets
+
     lowercase = string.ascii_lowercase
     uppercase = string.ascii_uppercase
     digits = string.digits
