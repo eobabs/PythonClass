@@ -19,7 +19,6 @@ class TestAccount (unittest.TestCase):
         account_one = Account("EOB", "08099999999")
         self.assertRaises(ValueError,self.account_one.deposit, Decimal('-1000'))
 
-
     def test_withdrawal_function(self):
         self.account_one.deposit(Decimal('1000'))
         self.account_one.change_pin("2000")
@@ -54,6 +53,14 @@ class TestAccount (unittest.TestCase):
         self.assertRaises(ValueError, self.account_one.withdraw, Decimal('100'), "0000")
         self.account_one.change_pin("2060")
         self.assertRaises(ValueError, self.account_one.withdraw, Decimal('100'), "2000")
+
+    def test_that_account_number_is_generated(self):
+        account_number = self.account_one.get_account_number()
+        self.assertEqual(len(account_number), 10)
+
+
+
+
 
 
 
